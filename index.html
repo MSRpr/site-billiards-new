@@ -28,17 +28,17 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <p><a class="navbar-brand-new" href="#"><img src="img/logo.png" alt="" width="280"></a></p>
+                    <p><a class="navbar-brand-new" href="#"><img src="img/logo.png" alt="" width="366"></a></p>
                 </div>
                 <!-- Соберите навигационные ссылки, формы, и другой контент для переключения -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><span></span><a href="#" class="buttom-catalog">Каталог</a></li>
-                        <li><span></span><a href="#" class="buttom-foto">Галерея</a></li>
-                        <li><span></span><a href="#">Правила</a></li>
-                        <li><span></span><a href="#">История</a></li>
-                        <li><span></span><a href="#">Отзывы</a></li>
-                        <li><span></span><a href="#">Контакты</a></li>
+                        <li><a href="#catalog" class="button-catalog">каталог</a></li>
+                        <li><a href="#galery" class="button-foto">галерея</a></li>
+                        <li><a href="#ruls" class="button-ruls">правила</a></li>
+                        <li><a href="#history" class="button-history">история</a></li>
+                        <li><a href="#reviews" class="button-reviews">отзывы</a></li>
+                        <li><a href="#contact" class="button-contact">контакты</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -61,18 +61,18 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8">
-                        <div class="info-header"><img src="img/table.png" alt="" class="img-table"></div>
+                        <div class="info-header"><img src="img/table.png" alt="" class="img-table" width="826">
                         <div class="stock-info">
-                            <p>АКЦИЯ</p><span class="full-info"><span class="big-info">Комплект игры<br/>"Морской бильярд"<br/></span>столешница
+                            <p class="big-info">АКЦИЯ</p><span class="full-info"><p class="big-info-2">Комплект игры</p><p class="big-info-3">"Морской бильярд"<br/></p>столешница
                             <br/>ножки
                             <br/>2 кия
                             <br/>набор пешек 16 шт.
                             <br/>бита
                             <br/>буклет с правилами</span>
                         </div>
-                        <div><img src="img/9000.png" class="discount-price" alt=""></div>
-                        <div><img src="img/11000.png" class="base-price" alt=""></div>
-                    </div>
+                        <div><img src="img/9000.jpg" class="discount-price" alt=""></div>
+                        <div><img src="img/11000.jpg" class="base-price" alt=""></div>
+                    </div></div>
                     <div class="col-md-4">
                         <div class="form-header text-center">
                             <p>ЗАКАЗАТЬ</p>
@@ -94,12 +94,9 @@
         </section>
         <!-- Конец шапки сайта -->
         <!-- Каталог -->
-        <section class="catalog">
+        <section class="catalog" id="catalog">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
-                        <div class="title-catalog">Каталог</div>
-                    </div>
                     <div class="col-md-3">
                         <div class="panel"><img src="img/1.png" alt="">
                             <p class="title-price">Столешница</p>
@@ -127,7 +124,7 @@
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="panel-1"><img src="img/4.png" alt="">
+                        <div class="panel-1"><img src="img/4.png" alt="" width="280.5">
                             <p class="title-price">Кий</p>
                             <p class="price-info-2">500 р</p>
                         </div>
@@ -137,13 +134,12 @@
         </section>
         <!-- Конец каталог -->
         <!-- Фото и видео -->
-        <section class="slider">
+        <section class="slider" id="galery">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="title-slider">Галерея</div>
                         <div class="slider">
-                            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">
                                 <!-- Показатели -->
                                 <ol class="carousel-indicators">
                                     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -191,13 +187,12 @@
         </section>
         <!-- Конец фото и видео -->
         <!-- Правила -->
-        <section class="slider-ruls">
+        <section class="slider-ruls" id="ruls">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="title-slider">Правила</div>
                         <div class="slider">
-                            <div id="carousel-example-generic-1" class="carousel slide" data-ride="carousel">
+                            <div id="carousel-example-generic-1" class="carousel slide" data-ride="carousel" data-interval="false">
                                 <!-- Показатели -->
                                 <ol class="carousel-indicators">
                                     <li data-target="#carousel-example-generic-1" data-slide-to="0" class="active"></li>
@@ -255,15 +250,12 @@
         </div>
         <!-- Конец правил -->
         <!-- История -->
-        <section class="history">
+        <section class="history" id="history">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
-                        <div class="title-history">История</div>
-                    </div>
                     <div class="col-md-6">
                         <div class="history-content">
-                            <p>Взяв небольшой стол и плоские фишки из индийской игры КАРРОМ, кий из бильярда и придумав правила, английские моряки создали игру, в которую можно играть в качку на корабле - <span>морской бильярд.</span> Проникая из порта в порт, эта игра стала известна в Англии, Америке, Австралии, а в странах Прибалтики приобрела невероятную популярность. У неё много имён - бильярд морской, капитанский, судовой; в Литве и Латвии это "новус", в Эстонии и Финляндии - "корона". В настоящее время у морского бильярда существует международная асоциация и проводятся международные соревнования. В России у этой безумно увлекательной игры <span>феноменальные перспективы</span></p>
+                            <p>Взяв небольшой стол и плоские фишки из индийской игры КАРРОМ, кий из бильярда и придумав правила, английские моряки создали игру, в которую можно играть в качку на корабле - <span>морской бильярд.</span><br/> Проникая из порта в порт, эта игра стала известна в Англии, Америке, Австралии, а в странах Прибалтики приобрела невероятную популярность. У неё много имён - бильярд морской, капитанский, судовой; в Литве и Латвии это "новус", в Эстонии и Финляндии - "корона". В настоящее время у морского бильярда существует международная асоциация и проводятся международные соревнования. В России у этой безумно увлекательной игры<br/> <span class="big-red-text">феноменальные перспективы</span>.</p>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -274,13 +266,12 @@
         </section>
         <!-- Конец история -->
         <!-- Отзывы -->
-        <section class="slider">
+        <section class="slider-footer" id="reviews">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="title-slider">Отзывы</div>
                         <div class="slider">
-                            <div id="carousel-example-generic-2" class="carousel slide" data-ride="carousel">
+                            <div id="carousel-example-generic-2" class="carousel slide" data-ride="carousel" data-interval="false">
                                 <!-- Показатели -->
                                 <ol class="carousel-indicators">
                                     <li data-target="#carousel-example-generic-2" data-slide-to="0" class="active"></li>
@@ -290,10 +281,10 @@
                                 <!-- Обертка для слайдов -->
                                 <div class="carousel-inner" role="listbox">
                                     <div class="item active">
-                                        <img src="http://placehold.it/1200x600" alt="">
+                                        <img src="http://placehold.it/1200x500" alt="">
                                     </div>
                                     <div class="item">
-                                        <img src="http://placehold.it/1200x600" alt="">
+                                        <img src="http://placehold.it/1200x500" alt="">
                                     </div>
                                 </div>
                                 <!-- Элементы управления -->
@@ -313,20 +304,49 @@
         </section>
         <!-- Конец отзывов -->
         <!-- Контакты -->
-        <section class="contact">
+        <section class="contact" id="contact">
             <div class="container">
                 <div class="row">
                     <div class="col-md-5">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis molestiae quaerat blanditiis accusantium, officiis non fuga! Animi nobis ullam eius in harum placeat eveniet debitis, natus tenetur cupiditate magni quos repellat aut ipsam. Natus nam accusamus, pariatur, eveniet neque sunt magni voluptatibus quisquam autem quibusdam itaque a dolor commodi voluptates suscipit, tempora. Commodi quos officia placeat quam provident dicta nesciunt, deserunt vel laboriosam labore recusandae, dolorum dolores ut quia est aliquam ipsam veritatis ad quas cupiditate similique repellat blanditiis magni numquam iure. Voluptatem voluptate ducimus temporibus, nobis a iusto. Ullam perspiciatis impedit dolore officiis iste eveniet mollitia quaerat inventore, neque ducimus, animi atque, veniam sapiente fugiat ratione! Culpa excepturi blanditiis odio cum eos deserunt aliquam repellat ex hic, nisi ad.</p>
-                    </div>
-                    <div class="col-md-4">
+                    <div class="contact-history">
+                        <p class="simple-billiards">Обычный бильярд</p> <p class="text-myriad">игра чертовски<br/> увлекательная</p><p class="simple-billiards-red">НО!</p>
+                        <p class="simple-billiards-mini">Стоит очень дорого</p> <p class="text-myriad-mini">не у всех есть такие деньги</p>
+                        <p class="simple-billiards-mini-2">Размер большой</p> <p class="text-myriad-mini">не у всех есть такое помещение</p>
+                        <p class="simple-billiards-mini-3">Вес тяжелый</p> <p class="text-myriad-mini-2">летом под яблоньку не вынесешь</p>
+                        <p class="simple-billiards-mini-4">Покрытие маркое</p> <p class="text-myriad-mini-3">шашлык с пивком не поешь</p>
+                        <p class="simple-billiards-mini-5">Играют двое</p> <p class="text-myriad-mini-4">взрослые играют, а дети скучают</p>
+                        <p class="simple-billiards-mini-6">А вот морской бильярд!</p>
+                        <p class="simple-billiards-mini-7">Это игра для всех</p>
+                        <p class="simple-billiards-mini-8">Для веселой компании</p>
+                        <p class="simple-billiards-mini-9">Можно играть вчетвером</p>
+                        <p class="simple-billiards-mini-10">Вечеринка точно не будет скучной</p>
+                        <p class="simple-billiards-mini-12">Для семьи</p><p class="simple-billiards-mini-11">и дедушкам, и бабушкам, и внукам</p>
+                        <p class="simple-billiards-mini-9">Объединяет все поколения</p>
+                        <p class="simple-billiards-mini-12">Для детей</p><p class="simple-billiards-mini-11">играть несложно и интересно</p>
+                        <p class="simple-billiards-mini-9">Без друзей не останешься</p>
+                        <p class="simple-billiards-mini-7">Это игра везде</p><p class="simple-billiards-mini-13">для дом/</p>
+                        <p class="simple-billiards-mini-14">дачи/бара/школы/хостела/заправки/</p>
+                        <p class="simple-billiards-mini-15">кафе/парикмахерской/переговорной...</p>
+                        <p class="simple-billiards-mini-16">Стол у морского бильярда</p>
+                        <p class="simple-billiards-mini-17">Небольшой и мобильный</p>
+                        <p class="simple-billiards-mini-18">хоть в поле ставь...</p>
+                    </div></div>
+                    <div class="col-md-7">
+                    <div class="form-footer">
+                            <p class="form-footer-h1">ЗАКАЗАТЬ</p>
+                            <form>
+                                <input type="text" name="name" value="имя" class="textbox2" onfocus="if (this.value == 'имя') this.value = '';" onblur="if (this.value == '') this.value = 'имя';" />
+                                <input type="text" name="name" value="телефон" class="textbox3" onfocus="if (this.value == 'телефон') this.value = '';" onblur="if (this.value == '') this.value = 'телефон';" />
+                                <p>обратный</p>
+                                <p>звонок</p>
+                                <button class="button-2"></button>
+                            </form>
+                        </div>
                         <div class="contact-info">
-                        <p>Наша компания маленькая. Мы делаем столы, играем на них, рекламируем, продаём и доставляем. Так как нас немного, то делаем мы это не очень быстро. Если вам не терпится начать играть, заезжайте к нам за столом сами. Наша мастерская находится по адресу:<br/> <span>Московская обл., г. Пушкино, 2-й Фабричный проезд, д.16.</span></p> <p>Наш номер телефона <span>+7-929-530-8372</span> Мы рады вашему звонку в любое время. Но, бывает заигрываемся и не услышим звонок. В этом случае заказывайте обратный звонок, И мы обязательно свяжемся с вами после партии. У нас можно заказать стол и по безналичному расчёту. Для этого пришлите реквизиты вашей компании по адресу: <span>4luzy@mail.ru</span>
+                        <p>Наша компания маленькая.<br/> Мы делаем столы, играем на них,<br/> рекламируем, продаём и доставляем.<br/> Так как нас немного,<br/> то делаем мы это не очень быстро.<br/> Если вам не терпится начать играть,<br/> заезжайте к нам за столом сами.<br/> Наша мастерская находится по адресу:<br/> <span>Московская обл., г. Пушкино,<br/> 2-й Фабричный проезд, д.16.</span></p><br/> <p>Наш номер телефона <span>+7-929-530-8372</span><br/> Мы рады вашему звонку в любое время.<br/> Но, бывает заигрываемся и не услышим звонок.<br/> В этом случае заказывайте обратный звонок,<br/> И мы обязательно свяжемся с вами после партии.<br/> У нас можно заказать стол и по безналичному расчёту.<br/> Для этого пришлите<br/> реквизиты вашей компании по адресу: <span>4luzy@mail.ru</span>
                         </p>
                         </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="contact-from-info"></div>
+                          
                     </div>
                 </div>
             </div>
@@ -359,6 +379,7 @@
     <!-- Конец подвала -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/slider.js"></script>
 </body>
 
 </html>
